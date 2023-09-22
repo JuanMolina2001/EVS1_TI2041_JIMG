@@ -19,8 +19,11 @@ from django.urls import path
 from jimg_app1.views import vista1 as a1v1, vista2 as a1v2
 from jimg_app2.views import vista1 as a1v1, vista2 as a1v2
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('A1-vista1/',  a1v1),
+    path('A1-vista2/',  a1v2),
     path('A1-vista1/',  a1v1),
     path('A1-vista2/',  a1v2),
 ]
