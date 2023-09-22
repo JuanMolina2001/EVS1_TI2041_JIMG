@@ -23,6 +23,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('A1-vista1/',  a1v1),
     path('A1-vista2/',  a1v2),
-    path('A2-vista1/',  a1v1),
-    path('A2-vista2/',  a1v2),
 ]
